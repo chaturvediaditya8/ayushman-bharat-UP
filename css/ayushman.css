@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* top most bar */
+.info{
+    width: 100%;
+    height: 40px;
+    background: #410088;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    height: 60px;
+    width: 18%;
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.left p{
+    font-size: 15px;
+}
+.right{
+    height: 60px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 205px;
+}
+.a{
+    border: 1px solid #fcac28;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* site heading */
+.heading{
+    background: rgb(146, 57, 161);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    
+}
+.img1{
+    height: 100px;
+    padding-top: 10px;
+    padding-right: 20px;
+    /* margin-left: -70px; */
+    
+}
+.b{
+    height: 80px;
+    width: 80px;
+}
+.text{
+    /* padding-right: 270px; */
+}
+.text h2{
+    color: #ffd957;
+    line-height: -10px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.text h1{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+}
+.logo{
+    padding-left: 100px;
+}
+/* heading end and navbar start */
+.navbar{
+    width: 100%;
+    height: 50px;
+    background:linear-gradient(to bottom, #eabb0c 0%, #ffab2c 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    margin-left: -125px;
+}
+.list a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Calibri';
+    font-weight: 500;
+
+}
+.list a:hover{
+    color: #230346;
+    transition: 1s;
+    text-decoration: underline;
+}
+/* navbar end & banner start */
+.banner{
+    background: url(https://ayushmanup.in/assets/images/slider/slider4.jpg);
+    width: 100%;
+    height: 300px;
+}
+.mar{
+    width: 100%;
+    height: 50px;
+    background: #4d4090 url(https://ayushmanup.in/assets/images/city_background.png) no-repeat top right;
+    font-family: ' Calibri';
+    font-size: 22px;
+    color: white;
+    line-height: 2;
+    padding: 0px 170px;
+}
+/* marquee ends */
+.box{
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+}
+.row1{
+    height: 80px;
+    width: 1100px;
+    border: 0 1 1 1px solid;
+    border-collapse: collapse;
+    background: #F3F9F9;
+    /* float: left; */
+}
+.row2{
+    height: 80px;
+    width: 1100px;
+    border: 0 1 1 1px solid;
+    border-collapse: collapse;
+    background: #F3F9F9;
+    /* float: left; */
+}
+.c{
+    height: 80px;
+    width:366px;
+    border:2px solid #C2DADE;
+    float: left;
+    display: flex;
+}
+.d{
+    height: 80px;
+    width: 80px;
+}
+/* .e h1{
+    font-size: 30px;
+    color: orangered;
+}
+.e p{
+    font-size: 12px;
+    line-height: 0;
+} */
+.zemo pre h1{
+    font-size: 30px;
+    color: orangered;
+    margin-top: -10px;
+    font-weight: 800;
+    margin-left: -20px;
+}
+.zemo pre p{
+    margin-top: -23px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: calibri;
+}
+.demo pre h1{
+    font-size: 30px;
+    color: orangered;
+    margin-top: -10px;
+    font-weight: 800;
+    margin-left: 9px;
+}
+.demo pre p{
+    margin-top: -23px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: calibri;
+}
+.kilo pre h1{
+    font-size: 30px;
+    color: orangered;
+    margin-top: -10px;
+    font-weight: 800;
+    margin-left: -68px;
+}
+.kilo pre p{
+    margin-top: -23px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: calibri;
+}
+.h pre h1{
+    font-size: 30px;
+    color: orangered;
+    margin-top: -10px;
+    font-weight: 800;
+    margin-left: -100px;
+}
+.h pre p{
+    margin-top: -23px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: calibri;
+}
+*.i pre h1{
+    font-size: 30px;
+    color: orangered;
+    margin-top: -10px;
+    font-weight: 800;
+    margin-left: -25px;
+}
+.i pre p{
+    margin-top: -23px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: calibri;
+}
+.j pre h1{
+    font-size: 30px;
+    color: orangered;
+    margin-top: -10px;
+    font-weight: 800;
+   
+}
+.j pre p{
+    margin-top: -23px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: calibri;
+} 
